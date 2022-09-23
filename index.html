@@ -2,9 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>申请单</title>
 </head>
+<style>
+    div.input_box {
+        margin-bottom: 5px;
+    }
+
+    td {
+        text-align: right;
+    }
+    input{
+        width: 200px;
+
+    }
+</style>
 <body>
-<h1>HelloWorld</h1>
+<form action="qjt.html" method="get">
+    <div style="text-align: center">
+        <table>
+            <tr>
+                <td>
+                    <label for="cjr">申请人：</label>
+
+                </td>
+                <td>
+                    <input required type="cjr" name="cjr" id="cjr">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ssyx">所在院系：</label>
+                </td>
+                <td>
+                    <input required type="text" id="ssyx" name="ssyx">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="szbj">所在班级：</label>
+                </td>
+                <td>
+                    <input required type="text" id="szbj" name="szbj">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="xh">学号：</label>
+                </td>
+                <td>
+                    <input required type="number" id="xh" name="xh">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sjh">手机号：</label>
+                </td>
+                <td>
+                    <input required type="text" id="sjh" name="sjh">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sfz">身份证号：</label>
+                </td>
+                <td>
+                    <input required type="text" id="sfz" name="sfz">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sqsj">申请时间：</label>
+                </td>
+                <td>
+                    <input required type="datetime-local" id="sqsj" name="sqsj">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="kssj">请假开始时间：</label>
+                </td>
+                <td>
+                    <input required type="datetime-local" id="kssj" name="kssj">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="jssj">请假结束时间：</label>
+                </td>
+                <td>
+                    <input required type="datetime-local" id="jssj" name="jssj">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qjts">请假结束时间：</label>
+                </td>
+                <td>
+                    <input required type="number" id="qjts" name="qjts">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qjsy">请假事由：</label>
+                </td>
+                <td>
+                    <input required type="text" id="qjsy" name="qjsy">
+                </td>
+            </tr>
+            <tr >
+                <td style="text-align: center" colspan="2">
+                    <input required style="margin-top:20px;width: 80px;height: 40px;font-size: 20px" type="submit" value="提交">
+                </td>
+            </tr>
+        </table>
+
+
+    </div>
+</form>
 </body>
 </html>
